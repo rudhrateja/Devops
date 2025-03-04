@@ -5,7 +5,7 @@ FROM nginx:latest
 RUN apt-get update && apt-get install -y unzip curl tar
 
 # Set the GitHub URL for your tar.zip file
-ARG GITHUB_TAR_ZIP_URL="https://github.com/YOUR_USERNAME/YOUR_REPO/raw/YOUR_BRANCH/nginx.tar.zip"
+ARG GITHUB_TAR_ZIP_URL="https://github.com/rudhrateja/Devops/blob/testing/nginx/nginx-1.27.4.tar.gz"
 
 # Set the working directory
 WORKDIR /usr/share/nginx/html
